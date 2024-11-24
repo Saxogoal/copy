@@ -1,0 +1,87 @@
+:root {
+    --main-color: #3498db; /* Example color */
+    --secondary-color: #2ecc71; /* Example color */
+    --text-color: #333;
+    --background-color: #f4f4f4;
+  }
+  
+  body {
+    font-family: 'Pacifico', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: left;
+    padding: 20px;
+  }
+  .header-image{
+    position: left;
+    padding: 20px;
+    width: 20%;
+    height: auto;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--main-color); /* Change link color as necessary */
+  }
+  
+  .hero {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: whitesmoke; /* Change as necessary */
+    font-size: 3rem; /* Adjust font size */
+    text-align: center;
+  }
+  
+  article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 20%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 100px;
+    border-radius: 4px;
+    color: white; /* Text color for article */
+    width: 70%;
+  }
+  
+  article img {
+    float: right;
+    margin-left: 10px; /* Add some space between the image and text */
+    width: 10vw; /* Adjust size as necessary */
+    height: auto;
+  }
+  .adventure {
+    font-size: 50px;
+  }
+  
+  h2 {
+    color: var(--main-color); /* Color for section headings */
+  }
+  
+  section {
+    margin: 20px 0; /* Add space between sections */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+  }
